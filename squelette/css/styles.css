@@ -12,11 +12,8 @@
 body {
    -webkit-font-smoothing: antialiased;
    text-rendering: optimizelegibility;
-   
    text-align: center;
-
    background-image: url(../images/bg-tile.gif);
-   
    font-family: 'Open Sans';   
    font-size: 14px;   
 }
@@ -111,15 +108,27 @@ header nav {
 }
 
 header nav ul {
-
+    background: url(../images/tiny-donut.png) no-repeat;
+    background-position: right;
+    width: 80%
 }
 
 header nav ul li {
 
+    display: inline-block;
+    width: 15%;
+    height: 100px;
+    /*margin: 5px;*/
+    text-align:center;
+    list-style: none;
 }
 
 header nav ul li a {
-
+    color: #d17f38;
+    text-decoration: none;
+    font-family: 'Love Ya Like A Sister Solid';
+    /*mettre la meme valeur ici que pour "header nav ul li" dans height*/
+    line-height: 100px;
 }
 
 header nav ul li a:hover {
@@ -127,27 +136,39 @@ header nav ul li a:hover {
 }
 
 header nav ul li#logo a {
-
+    display: block;
+    width:150px;
+    height: 100px;
+    background: url(../images/logo.png) no-repeat;
+    background-size: 150px;
+    color: transparent;
 }
 
 header nav ul li#logo a:hover {
-
+    background: url(../images/logo-hover.png) no-repeat;
+    background-size: 150px;
 }
 
 
 /* Hero */
 
 #hero {
-
     background-image: url(../images/bg-tile-yellow.gif);
 }
 
 #hero .container {
-
+    width: 100%;
 }
 
 #hero .large-ribbon {
-
+    color: transparent;
+    width: 150px;
+    height: 200px;
+    background-size: contain;
+    background: url(../images/fresh-whole-ingredients.png) no-repeat;
+    position: absolute;
+    top: 15%;
+    right: 10%;
 }
 
 
