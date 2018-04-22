@@ -33,7 +33,7 @@ h1, h2 {
 
     color: #d17f38;
     
-    font-family: "Love Ya Like A Sister Solid";
+    font-family: "Love Ya Like A Sister", Solid;
 }
 
 h1 {
@@ -108,9 +108,7 @@ header nav {
 }
 
 header nav ul {
-    background: url(../images/tiny-donut.png) no-repeat;
-    background-position: right;
-    width: 80%
+    width: 100%
 }
 
 header nav ul li {
@@ -128,17 +126,26 @@ header nav ul li {
 header nav ul li a {
     color: #d17f38;
     text-decoration: none;
-    font-family: "Love Ya Like A Sister Solid";
+    font-weight: bold;
     /*mettre la meme valeur ici que pour "header nav ul li" dans height*/
     line-height: 100px;
+    padding-top: 25px;
+    margin-top: -25px;
     
 }
 
 header nav ul li a:hover {
     color: #4b2707;
+    background: url(../images/tiny-donut.png) no-repeat;
+    background-size: 15px;
+    background-position: center;
+        
+
 }
 
 header nav ul li#logo a {
+    padding-top: 0px;
+    margin-top: 0px;
     display: inline-block;
     margin-left: -10px;
     width:150px;
