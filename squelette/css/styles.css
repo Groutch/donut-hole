@@ -62,30 +62,28 @@ h2 {
 
 h3 {
     color: #4b2707;
-        font-size: 17px;
-        margin-bottom: 0px;
-        margin-top: 0px;
+    font-size: 17px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 p.lead {
 
     margin-bottom: 10px;
-
     font-size: 30px;
 }
 
 p {
-    color: #4b2707;
-
+    /*color: #4b2707;*/
     margin-top: 0px;
 }
 
 a:link, a:visited {
-
+    color: #D17F38;
 }
 
 a:hover {
-
+    color: #4b2707;
 }
 
 hr {
@@ -192,23 +190,19 @@ header nav ul li#logo a:hover {
 /* The Whole Story */
 
 #story-excerpt {
-
+    color:#4B2707;
     display: inline-block;
     width: 530px;
-
     text-align:left;
     font-size: 16px;   
-    
 }
 
 #best-donut {
-
     display: inline-block;
     vertical-align: top;
     width: 270px;
-
+    color:#4B2707;
     text-align:left;
-
     padding-left: 125px;
     background-image: url("../images/award.png");
     background-repeat: no-repeat; 
@@ -261,14 +255,13 @@ header nav ul li#logo a:hover {
 }
 
 #news-events section.excerpt {
-
+    color:#4B2707;
     margin-top: 10px;
 }
 
 #news-events footer {
 
     font-size: 12px;
-
     margin-bottom: 20px;
 }
 
@@ -276,14 +269,14 @@ header nav ul li#logo a:hover {
 /* Footer */
 
 footer.main {
-
+    height:100px;
+    color: #ffffff;
     background-image: url(../images/bg-tile-brown.gif);
-
     margin-top: 50px;
 }
 
 footer.main a:hover {
-
+    color: #ffffff;
 }
 
 #uncopyright, #credits {
@@ -291,20 +284,29 @@ footer.main a:hover {
 }
 
 #uncopyright {
-
+    position: relative;
+    top:20px;
     display: block;
     float: left;
-
     text-align:left;
+    padding-left: 50px;
+    background-image: url("../images/icon-recycle.png");
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+    
 }
 
 #credits {
-
     display: block;
     float: right;
-
-    text-align:left;    
+    text-align:left;
+    line-height: 100px;
+    padding-left: 50px;
+    background-image: url("../images/icon-apple.png");
+    background-repeat: no-repeat;
+    background-position-y: 30px;
 }
+
 
 
 /* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
